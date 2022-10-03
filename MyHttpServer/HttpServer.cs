@@ -54,9 +54,6 @@ public class HttpServer
 
                     case "/dodo":
                         {
-                            // FileStream fstream = File.OpenRead(@"C:\Users\SURFACE\source\repos\HttpServer\HttpServer\google\google.html");
-                            // byte[] buffer = new byte[fstream.Length];
-
                             var fileName = "index.html";
                             string dodo = File.ReadAllText(fileName);
 
